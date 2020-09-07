@@ -50,7 +50,8 @@ $ docker build -t shinyay/tools .
 ```
 $ docker run --rm -it \
         -v /var/run/docker.sock:/var/run/docker.sock \
-        shinyay/tools
+        -v (pwd):/workdir \
+        shinyay/tools <COMMAND>
 ```
 
 ## Installation
