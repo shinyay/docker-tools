@@ -19,4 +19,4 @@ RUN wget -O- https://download.docker.com/linux/static/stable/x86_64/docker-${DOC
     chmod +x emc && mv emc /usr/local/bin
 
 WORKDIR /workdir
-CMD ["/bin/ls","-la"]
+CMD ["/bin/echo","USAGE: docker run --rm -it -v /var/run/docker.sock:/var/run/docker.sock -v (pwd):/workdir shinyay/tools [COMMAND]"]
