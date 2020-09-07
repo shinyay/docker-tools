@@ -3,15 +3,26 @@
 Overview
 
 ## Description
-### Retrieve CLI Binary
+### Retrieve Dive Binary
+```
+$ curl -sSL "https://github.com/wagoodman/dive/releases/download/v0.9.2/dive_0.9.2_linux_amd64.tar.gz" | tar -xvz dive
+```
+
+### Retrieve Pack Binary
 ```
 $ curl -sSL "https://github.com/buildpacks/pack/releases/download/v0.13.1/pack-v0.13.1-linux.tgz" |tar -xvz
 $ chmod +x pack
 ```
 
+### Retrieve EMC Binary
+```
+$ curl -L https://github.com/wreulicke/emc/releases/download/v0.0.3/emc_0.0.3_linux_amd64 -o emc
+$ chmod +x emc
+```
+
 ### Build Container image
 ```
-$ docker build -t shinyay/pack .
+$ docker build -t shinyay/tools .
 ```
 
 ## Demo
