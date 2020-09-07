@@ -6,8 +6,11 @@ Various utility CLI tools in a container package.
 
 ## Description
 - Dive
+  - Analyze docker image layers
 - Pack
+  - cli for CloudNative Buildpacks
 - EMC
+  - Caliculate Java memmory
 
 ### Retrieve Binaries
 #### Dive
