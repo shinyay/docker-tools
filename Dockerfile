@@ -18,5 +18,5 @@ RUN wget -O- https://download.docker.com/linux/static/stable/x86_64/docker-${DOC
     wget https://github.com/wreulicke/emc/releases/download/v${EMC_VERSION}/emc_${EMC_VERSION}_linux_amd64 -O emc && \
     chmod +x emc && mv emc /usr/local/bin
 
-WORKDIR /usr/local/bin
+WORKDIR /workdir
 CMD ["/bin/ls","-la"]
