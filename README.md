@@ -2,6 +2,8 @@
 
 Various utility CLI tools in a container package.
 
+- [shinyay/tools](https://hub.docker.com/repository/docker/shinyay/tools)
+
 ## Description
 - Dive
 - Pack
