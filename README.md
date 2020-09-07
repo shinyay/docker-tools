@@ -39,8 +39,9 @@ $ docker build -t shinyay/tools .
 
 ## Features
 
-- feature:1
-- feature:2
+- dive
+- pack
+- emc
 
 ## Requirement
 
