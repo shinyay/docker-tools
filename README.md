@@ -41,6 +41,7 @@ $ docker build -t shinyay/tools .
 
 - dive
 - pack
+  - pack build --builder gcr.io/buildpacks/builder:v1 <SOURCE_CODE>
 - emc
 
 ## Requirement
