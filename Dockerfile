@@ -7,6 +7,7 @@ RUN wget -O- https://download.docker.com/linux/static/stable/x86_64/docker-${DOC
 
 COPY emc /usr/local/bin
 COPY pack /usr/local/bin
+COPY dive /usr/local/bin
 
 WORKDIR /usr/local/bin
 CMD ["/bin/ls","-la"]
