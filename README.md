@@ -55,6 +55,20 @@ $ docker run --rm -it \
 ```
 
 ## Installation
+### GitHub Packages
+```
+$ cat ~/GH_TOKEN.txt | docker login docker.pkg.github.com -u shinyay --password-stdin
+Login Succeeded
+```
+```
+$ docker images
+REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
+shinyay/tools       latest              38fbde47567b        3 days ago          99.2MB
+```
+```
+$ docker tag 38fbde47567b docker.pkg.github.com/shinyay/docker-tools/tools:0.0.1
+$ docker push docker.pkg.github.com/shinyay/docker-tools/tools:0.0.1
+```
 
 ## Licence
 
